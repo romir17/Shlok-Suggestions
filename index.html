@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./images/favicon/site.webmanifest">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Home - Shloka Dictonary</title>
+</head>
+<body>
+    <!--Only in mobile-->
+    <div class="mobile">
+      <h1 class="mobile_heading">Shloka <br> Dictonary</h1>
+      <br><br>
+    </div>
+    <!--Only in mobile-->
+
+    <div class="main_img_container">
+        <img class="main_img" src="./images/img1.JPG" alt="">
+    </div>
+
+    
+
+    <div class="d-flex justify-content-around">
+        <div class="flex-item">
+            <h2>Shlok of the day</h2>
+            <div class="mb-1 text-muted" id="date-time1">Nov 12</div>
+              <p class="card-text mb-auto" id="slok"></p> <br>
+              <a href="#" class="stretched-link">Continue reading</a>
+        </div>
+        <div class="flex-item">
+            <h2>Get All the Chapters</h2>
+            <div class="mb-1 text-muted" id="date-time2"></div>
+              <p class="mb-auto">Get all the sloks of Bhagavad Gita</p>
+              <p class="mb-auto">At One Place</p>
+              <a href="allSloks.html" class="stretched-link">Continue reading</a>
+        </div>
+    </div>
+
+    <!--flickity slider-->
+    <div class="carousal-container">
+        <div class="carousel"
+            data-flickity='{ "wrapAround": true }'>
+            <div class="carousel-cell">
+                <img class="flickety-img" src="./images/mahabharat.jpg" alt="">
+                <br><br>
+                <h3>Mahabharata</h3>
+                <p>The epic tale of the Kurukshetra War which was fought between the Kauravas and the Pandavas. Krishna, the avatar of the Hindu deity Vishnu, guides the Pandavas to victory in this war....<a href="https://en.wikipedia.org/wiki/Mahabharata" target="_blank" class="stretched-link">Continue reading on Wikipedia</a></p>
+            </div>
+            <div class="carousel-cell">
+                <img class="flickety-img" src="./images/krishna.jpg" alt="">
+                <br><br>
+                <h3>Shri Krishna</h3>
+                <p>Krishna is a major deity in Hinduism. He is worshipped as the eighth avatar of Vishnu and also as the supreme God in his own right. He is the god of protection, compassion, tenderness, and love and is one of the most popular and widely revered among Indian divinities....<a href="https://en.wikipedia.org/wiki/Krishna" target="_blank" class="stretched-link">Continue reading on Wikipedia</a></p>
+            </div>
+            <div class="carousel-cell">
+                <img class="flickety-img" src="./images/arjun.jpg" alt="">
+                <br><br>
+                <h3>Arjuna</h3>
+                <p>Arjuna, also known as Partha and Dhananjaya, is one of the major characters of ancient Hindu texts including the Bhagavata Purana. He is the third among Pandavas, the five sons of Pandu. In the Mahabharata War, Arjuna was a key warrior from the Pandava side and slew many warriors including Karna....<a href="https://en.wikipedia.org/wiki/Arjuna" target="_blank" class="stretched-link">Continue reading on Wikipedia</a></p>
+            </div>
+            <div class="carousel-cell">
+                <img class="flickety-img" src="./images/bhim.jpg" alt="">
+                <br><br>
+                <h3>Bhima</h3>
+                <p>Bhima is the second among the five Pandavas. The Mahabharata relates many events that portray the might of Bhima. Bhima was born when Vayu, the wind god, granted a son to Kunti and Pandu. From his childhood, Bhima had a rivalry with his cousins Kauravas, especially Duryodhana. Duryodhana and his uncle, Shakuni, tried to kill Bhima multiple times....<a href="https://en.wikipedia.org/wiki/Bhima"  target="_blank" class="stretched-link">Continue reading on Wikipedia</a></p>
+            </div>
+            <div class="carousel-cell">
+                <img class="flickety-img" src="./images/bhishma.JPG" alt="">
+                <br><br>
+                <h3>Bhishma Pitamah</h3>
+                <p>Bhishma, also known as Pitamaha, Gangaputra and Devavrata, was a statesman of Kuru Kingdom and one of the most powerful warriors in the Hindu epic Mahabharata. He was the eighth and only surviving son of the Kuru King Shantanu and the river goddess Ganga....<a href="https://en.wikipedia.org/wiki/Bhishma" target="_blank" class="stretched-link">Continue reading on Wikipedia</a></p>
+            </div>
+            <div class="carousel-cell">
+                <img class="flickety-img" src="./images/karna.jpg" alt="">
+                <br><br>
+                <h3>Karna</h3>
+                <p>Karna, also known as Vasusena, Anga-raja, and Radheya, is one of the major characters of the Hindu epic Mahābhārata. He is the son of the sun god- Surya and princess Kunti, and thus a demigod of royal birth. Kunti was granted the boon to bear a child with desired divine qualities from the gods and without much knowledge, Kunti invoked the sun god to confirm it if it was true indeed....<a href="https://en.wikipedia.org/wiki/Karna" target="_blank" class="stretched-link">Continue reading on Wikipedia</a> </p>            
+            </div>
+        </div>
+    </div>
+    <br><br><br><br>
+    <footer>
+      <div class="foot">
+        <a href="">&copy; | Shloka Dictonary</a>
+      </div>
+    </footer>
+
+
+
+
+      <!--JS-->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
